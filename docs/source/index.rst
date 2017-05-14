@@ -1,5 +1,5 @@
-robdos simulation
-=================
+robdos project
+==============
 
 Simulations for robdos project, more info: http://www.robdosteam.com
 
@@ -9,7 +9,8 @@ Contents:
 .. toctree::
     :maxdepth: 2
 
-    How to install the project? <installation.rst>
+    Introduction <introduction.rst>
+    Components <architecture.rst>
     Tutorials and extensions <tutorials.rst>
     Contact <contact.rst>
 
@@ -19,4 +20,5 @@ This project is released under GPLv2 license, please consider that external plug
 Developed by:
 
 - Francisco J. Garcia R. - garciar@rhrk.uni-kl.de
+- Javier Fernandez       - javier.f3rnand3z@gmail.com
 
