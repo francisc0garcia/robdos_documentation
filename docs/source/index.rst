@@ -1,4 +1,4 @@
-robdos project
+Robdos Project
 ==============
 
 Simulations for robdos project, more info: http://www.robdosteam.com
@@ -10,8 +10,10 @@ Contents:
     :maxdepth: 2
 
     Introduction <introduction.rst>
-    Components <architecture.rst>
+    Architecture <architecture.rst>
+    Git repository <git.rst>  
     Tutorials and extensions <tutorials.rst>
+    Issues and lessons <issues.rst>
     Contact <contact.rst>
 
 

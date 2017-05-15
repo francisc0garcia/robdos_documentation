@@ -1,4 +1,4 @@
-Suricate robot tutorials
+Robdos robot tutorials
 ========================
 
 This section explain some examples of how to use the gazebo simulation and ROS in order to play
