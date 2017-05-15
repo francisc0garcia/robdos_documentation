@@ -3,8 +3,8 @@ Contact us
 
 * If you want more info about the project:
 
-Francisco J. Garcia R. - garciar@rhrk.uni-kl.de
-Javier Fernandez       - javier.f3rnand3z@gmail.com
+- Francisco J. Garcia R. - garciar@rhrk.uni-kl.de
+- Javier Fernandez       - javier.f3rnand3z@gmail.com
 
 
 * robdos simulation license:
