@@ -61,6 +61,10 @@ In order to perform a realistic simulation of the robot, we have develop gazebo 
 This node convert RCOut values into valid angular velocity for thrusters, then, the Lift-Drag plugin and gazebo computes the resulting force over the robot.
 
 
+Regression tests
+^^^^^^^^^^^^^^^^
+
+This section includes the tests that ensure that our new code does not have any conflict with the old one.
 
 
 
