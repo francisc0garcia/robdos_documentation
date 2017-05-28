@@ -26,21 +26,21 @@ Interfaces
 ^^^^^^^^^^
 
 .. image:: ../images/Smach.png
-    :width: 200px
+    :width: 1000px
     :align: center
-    :height: 100px
+    :height: 500px
     :alt: alternate text
 
 .. image:: ../images/Gazebo.png
-    :width: 200px
+    :width: 1000px
     :align: center
-    :height: 100px
+    :height: 500px
     :alt: alternate text
 
 .. image:: ../images/RViz.png
-    :width: 200px
+    :width: 1000px
     :align: center
-    :height: 100px
+    :height: 500px
     :alt: alternate text
 
 
