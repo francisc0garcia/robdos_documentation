@@ -25,7 +25,23 @@ Code format
 Interfaces
 ^^^^^^^^^^
 
+.. image:: ../images/Smach.png
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
 
+.. image:: ../images/Gazebo.png
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
+
+.. image:: ../images/RViz.png
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
 
 
 Launch files
