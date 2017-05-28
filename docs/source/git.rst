@@ -24,9 +24,8 @@ How to commit
 Format commit
 ^^^^^^^^^^^^^
 
-The commits must fulfill the next instructions:
-
-1. 
+The commits must include the descriptions of what it  has been done.
+The extension will depend on how things it has been changed.
 
 
 

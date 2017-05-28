@@ -18,48 +18,48 @@ The inputs that we receive so that we can control the robot are: Odometry (Posit
 Orientation) and the waypoint desired. Last, it is important to mentioned that the linear and
 angular movement are done at the same time.
 
-2. Robdos Dependancies
+2. **Robdos Dependancies**
 
 This package includes the dependancies (usb_cam, mavros, ...) necessary to compile the project. 
 This package has been done in the case one of the packages gets upgraded and, this impedes us to
 be able to compile the project.
 
-3. Robdos Dynamics
+3. **Robdos Dynamics**
 
 This is a package that we use in our as an alternative to the plugin to Gazebo that I will explain 
 later. It receives the velocities we are sending to the thrusters of the submarine, transforms them 
 to the forces and determines the position of the robot. Then, the node sends the position to Gazebo 
 and it represents it.
 
-4. Robdos Safety
+4. **Robdos Safety**
 
 This package checks all sensors from the AUV and acts in consequence of the value of those sensors.
 The sensors it reads are humidity, temperature and battery.
 
-5. Robdos Sim
+5. **Robdos Sim**
 
 
-6. Robdos State Machine
+6. **Robdos State Machine**
 
 This package includes the state machine that has been done with the tool Smach. We can move through 
 the different states, depending on the mission we want to do. 
 
-7. Robdos Station
+7. **Robdos Station**
 
 It shows a graphical user interface (GUI) that reads the value of the topics and monitors some of them.
 
-8. Robdos Teleop
+8. **Robdos Teleop**
 
 It converts the input of the joy into the input of the PixHawk. The buttoms we must press are mentioned 
 above.
 
-9. Robdos Utils
+9. **Robdos Utils**
 
 
-10. Robdos Vision
+10. **Robdos Vision**
 
 
-11. Robdos Visualization
+11. **Robdos Visualization**
 
 
 
@@ -142,6 +142,18 @@ Interfaces
     :alt: alternate text
 
 .. image:: ../images/RViz.png
+    :width: 1000px
+    :align: center
+    :height: 500px
+    :alt: alternate text
+
+.. image:: ../images/MultiPlot.png
+    :width: 1000px
+    :align: center
+    :height: 500px
+    :alt: alternate text
+
+.. image:: ../images/Topic_Monitor.png
     :width: 1000px
     :align: center
     :height: 500px
