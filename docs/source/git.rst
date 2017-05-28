@@ -16,10 +16,28 @@ How to commit
 
 .. code-block:: none
 
+	git pull
     git status
     git add .
     git commit -m "NameCommit"
     git push
+
+
+Other git commands
+^^^^^^^^^^^^^^^^^^
+*Create a new branch
+
+.. code-block:: none
+
+	git branch NameBranch
+
+*Move from one branch to another
+
+.. code-block:: none
+
+	git checkout NameBranch
+
+
 
 Format commit
 ^^^^^^^^^^^^^

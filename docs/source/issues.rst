@@ -1,5 +1,21 @@
-Robdos issues and lessons
-=========================
+Robdos lessons
+==============
+
+Ardusub
+^^^^^^^
+
+So as to download the Ardusub code:
+
+.. code-block:: none
+
+	sudo apt-get -qq -y install git
+	git clone https://github.com/bluerobotics/ardusub.git
+	cd ardusub
+	git submodule update -- init -- recursive
+	Tools/scripts/install-prereqs- ubuntu.sh -y
+	. ~/.profile
+	cd ArduSub/
+	make px4-v2
 
 
 Configure Pixhawk with QGroundControl
@@ -34,6 +50,12 @@ https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html
 In order to load the firmware, the first thing we must do is to open the QGroundControl and go
 to "Settings -> Firmware".
 
+.. image:: ../images/QGroundControl_LoadFirmware.png
+    :width: 1000px
+    :align: center
+    :height: 500px
+    :alt: alternate text
+
 After we connect the PixHawk, we will be asked about what firmware you want to upload. In our case 
 we have to have to click "Custom" and choose our compiled workspace.
 
@@ -48,6 +70,13 @@ In that path we should be able to see the sensors there are available and a gree
 If this is not the case, you can press on top and click, on the side, to the bottom "Calibration".
 In the main screen we will see the calibration instructions.
 
+
+Here there is a video that shows how we can calibrate the PixHawk. Even if it uses another program, the 
+steps are the same ones: 
+
+https://www.youtube.com/watch?v=uH2iCRA9G7k  (Minute 16:44)
+
+
 4. **Set parameters**
 
 When we compile we do not say what kind of submarine we have so it is necessary to go to "Settings -> Frame" 
@@ -61,3 +90,11 @@ the PixHawk. If everything is well calibrated, we should be able to arm without 
 
 If we have changed the parameters in the PixHawk, it is necessary to restart it so they work right (This is because
 some of them are loaded at the beginning of the program and any other modification does not affect them.)
+
+
+.. image:: ../images/QGroundControl.png
+    :width: 1000px
+    :align: center
+    :height: 500px
+    :alt: alternate text
+
