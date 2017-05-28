@@ -11,7 +11,7 @@ explained in the previous section.
 Code Structure
 ^^^^^^^^^^^^^^
 
-1. Robdos Autonomous
+1. **Robdos Autonomous**
 
 It includes the control of the AUV. It is used in both the real robot and the the simulates one.
 The inputs that we receive so that we can control the robot are: Odometry (Position and 
