@@ -139,17 +139,14 @@ Then, we must follow the next commands:
 
     #NUC computer
     roscore
+    cd ~/robdos_ws
+    source devel_isolated/setup.bash
+    roslaunch robdos_state_machine on_board_architecture.launch
 
     #Our computer
-    rosparam set joy_node/dev "/dev/input/js1"
-    rosrun joy joy_node
+    robdos_state_machine ground_architecture.launch
 
-    #NUC computer
-    cd ~/catkin_ws
-    catkin_make_isolated
-    source devel_isolated/setup.bash
-    roslaunch robdos_sim/robdos_state_machine.launch
-    rosrun mavros mavros_node
+    #It is not necessary to do the next commands but it allows us to change some PixHawk values
     rosservice call /mavros/set_stream_rate 0 10 1
     rosservice call /mavros/cmd/arming 1
 
